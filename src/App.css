@@ -1195,7 +1195,6 @@ footer {
 }
 
 /* Loading Animation */
-/* পুরো স্ক্রিন জুড়ে একদম মাঝখানে রাখার কোড */
 .loader-container {
   position: fixed;
   top: 0;
@@ -1209,16 +1208,13 @@ footer {
   z-index: 99999; 
 }
 
-/* লোগোটি বড় করা হয়েছে এবং অ্যানিমেশন যুক্ত করা হয়েছে */
 .loading-logo {
   width: 220px; /* লোগোটি আগের চেয়ে বড় করা হয়েছে */
   height: auto;
-  border-radius: 8px; /* লোগোর কোণাগুলো একটু মসৃণ করার জন্য */
-  /* লোগোর উপরেই অ্যানিমেশন কাজ করবে */
+  border-radius: 8px; 
   animation: logoGlow 2s infinite ease-in-out;
 }
 
-/* লোগো থেকে আলো ছড়ানোর অ্যানিমেশন (Glow Effect) */
 @keyframes logoGlow {
   0% {
     filter: drop-shadow(0 0 2px rgba(0, 120, 215, 0.3));
