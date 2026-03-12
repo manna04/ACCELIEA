@@ -1,77 +1,93 @@
-import React from 'react';
+import React, { useState } from 'react'; 
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.jpg';
 
 export default function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeMenu = () => setIsOpen(false);
+
   return (
-    <div>
+    <>
       <header>
         <nav className="navbar">
           <div className="logo">
-            <Link to="/">
+            <Link to="/" onClick={closeMenu}>
               <img src={logo} alt="Aceliea logo" />
             </Link>
           </div>
-          <div className="menu-toggle" id="menu-toggle">&#9776;</div>
-          <ul className="nav-links" id="nav-links">
+
+          <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
+            &#9776;
+          </div>
+
+          <ul className={`nav-links ${isOpen ? "active" : ""}`}>
+            
             <li className="dropdown">
-              <Link to="/news-resources">News & Events</Link>
+              <Link to="/news-resources" onClick={closeMenu}>News & Events</Link>
               <ul className="dropdown-menu">
-                <li><Link to="/news-resources">Press Releases</Link></li>
-                <li><Link to="#">Blog</Link></li>
-                <li><Link to="#">Webinars</Link></li>
+                <li><Link to="/news-resources" onClick={closeMenu}>Press Releases</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Blog</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Webinars</Link></li>
               </ul>
             </li>
+
             <li className="dropdown">
-              <Link to="/solutions">Solutions</Link>
+              <Link to="/solutions" onClick={closeMenu}>Solutions</Link>
               <ul className="dropdown-menu">
-                <li><Link to="/solutions">Clinical Trials</Link></li>
-                <li><Link to="#">Regulatory</Link></li>
-                <li><Link to="#">Data Management</Link></li>
+                <li><Link to="/solutions" onClick={closeMenu}>Clinical Trials</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Regulatory</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Data Management</Link></li>
               </ul>
             </li>
+
             <li className="dropdown">
-              <Link to="/expertise">Expertise</Link>
+              <Link to="/expertise" onClick={closeMenu}>Expertise</Link>
               <ul className="dropdown-menu">
-                <li><Link to="/expertise">Oncology</Link></li>
-                <li><Link to="#">Rare Diseases</Link></li>
-                <li><Link to="#">Vaccines</Link></li>
+                <li><Link to="/expertise" onClick={closeMenu}>Oncology</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Rare Diseases</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Vaccines</Link></li>
               </ul>
             </li>
+
             <li className="dropdown">
-              <Link to="/careers">Careers</Link>
+              <Link to="/careers" onClick={closeMenu}>Careers</Link>
               <ul className="dropdown-menu">
-                <li><Link to="#">Open Positions</Link></li>
-                <li><Link to="#">Internships</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Open Positions</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Internships</Link></li>
               </ul>
             </li>
+
             <li className="dropdown">
-              <Link to="/about">About</Link>
+              <Link to="/about" onClick={closeMenu}>About</Link>
               <ul className="dropdown-menu">
-                <li><Link to="#">Our Story</Link></li>
-                <li><Link to="#">Leadership</Link></li>
-                <li><Link to="#">Ethics</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Our Story</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Leadership</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Ethics</Link></li>
               </ul>
             </li>
+
             <li className="dropdown">
-              <Link to="/locations">Locations</Link>
+              <Link to="/locations" onClick={closeMenu}>Locations</Link>
               <ul className="dropdown-menu">
-                <li><Link to="#">Asia-Pacific</Link></li>
-                <li><Link to="#">Europe</Link></li>
-                <li><Link to="#">North America</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Asia-Pacific</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Europe</Link></li>
+                <li><Link to="#" onClick={closeMenu}>North America</Link></li>
               </ul>
             </li>
+
             <li className="dropdown">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" onClick={closeMenu}>Contact</Link>
               <ul className="dropdown-menu">
-                <li><Link to="#">Email</Link></li>
-                <li><Link to="#">Support</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Email</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Support</Link></li>
               </ul>
             </li>
+
           </ul>
         </nav>
       </header>
-    </div>
+    </>
   );
 }

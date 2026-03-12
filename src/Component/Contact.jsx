@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Nav from '../Shared/header/Nav'; // আপনার Nav কম্পোনেন্ট
+import Nav from '../Shared/header/Nav'; 
 
 export default function Contact() {
   return (
@@ -12,7 +12,6 @@ export default function Contact() {
           <div className="contact-locations-wrapper">
             <h2 id="office-title">Offices in Your Area</h2>
             <div className="office-grid" id="user-location-office">
-              {/* This will be dynamically populated based on user's location */}
             </div>
           </div>
         </section>

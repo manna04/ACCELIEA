@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Nav from '../Shared/header/Nav'; // আপনার Nav কম্পোনেন্ট
+import Nav from '../Shared/header/Nav';
 
 export default function NewsAndEvents() {
   return (
     <>
-      {/* Navbar placeholder এর বদলে সরাসরি Nav কম্পোনেন্ট ব্যবহার করা হলো */}
       <Nav />
 
       <main>

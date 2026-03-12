@@ -1,7 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Nav from '../Shared/header/Nav'; // আপনার Nav কম্পোনেন্ট
-// import clinicalImg from '../assets/images/clinical.jpg'
+import Nav from '../Shared/header/Nav';
+import clinicalImg from '../assets/images/clinical.jpg'
+import regulatoryImg from '../assets/images/regulatory.jpg'
+import dataimage from '../assets/images/data.jpg'
+import medicalImg from '../assets/images/medical.jpg'
+import biostatisticsImg from '../assets/images/statistics.jpg'
+import monitoringImg from '../assets/images/monitoring.jpg'
+import pharmacovigilance from '../assets/images/Pharmacovigilance.jpg'
+import logisticsImg from '../assets/images/logistics.jpg'
+import projectImg from '../assets/images/project.jpg'
 
 export default function Solutions() {
   return (
@@ -11,7 +19,7 @@ export default function Solutions() {
         <section className="solutions-section">
           <h1 className="section-title">Our Solutions</h1>
           <div className="solutions-grid">
-            <div className="solution-box" style={{ backgroundImage: 'url(${clinicalImg})' }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${clinicalImg})` }}>
               <div className="solution-overlay">
                 <h2>Clinical Trial Management</h2>
                 <p>Full-service trial planning, execution & support.</p>
@@ -20,7 +28,7 @@ export default function Solutions() {
               <div className="solution-title">Clinical Trial Management</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/regulatory.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${regulatoryImg})` }}>
               <div className="solution-overlay">
                 <h2>Regulatory Consulting</h2>
                 <p>Ensure global and regional compliance effectively.</p>
@@ -29,7 +37,7 @@ export default function Solutions() {
               <div className="solution-title">Regulatory Consulting</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/data.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${dataimage})` }}>
               <div className="solution-overlay">
                 <h2>Data Management</h2>
                 <p>Clean, secure and regulatory-compliant data.</p>
@@ -38,7 +46,7 @@ export default function Solutions() {
               <div className="solution-title">Data Management</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/medical.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${medicalImg})` }}>
               <div className="solution-overlay">
                 <h2>Medical Writing</h2>
                 <p>Scientific documentation with accuracy and clarity.</p>
@@ -47,7 +55,7 @@ export default function Solutions() {
               <div className="solution-title">Medical Writing</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/statistics.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${biostatisticsImg})` }}>
               <div className="solution-overlay">
                 <h2>Biostatistics</h2>
                 <p>Informed decisions based on deep statistical analysis.</p>
@@ -56,7 +64,7 @@ export default function Solutions() {
               <div className="solution-title">Biostatistics</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/monitoring.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${monitoringImg})` }}>
               <div className="solution-overlay">
                 <h2>Site Monitoring</h2>
                 <p>Ensure data integrity and regulatory compliance.</p>
@@ -65,7 +73,7 @@ export default function Solutions() {
               <div className="solution-title">Site Monitoring</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/pharmacovigilance.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${pharmacovigilance})` }}>
               <div className="solution-overlay">
                 <h2>Pharmacovigilance</h2>
                 <p>Patient safety & adverse event tracking.</p>
@@ -74,7 +82,7 @@ export default function Solutions() {
               <div className="solution-title">Pharmacovigilance</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/logistics.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${logisticsImg})` }}>
               <div className="solution-overlay">
                 <h2>Clinical Logistics</h2>
                 <p>Fast, reliable supplies to sites and depots worldwide.</p>
@@ -83,7 +91,7 @@ export default function Solutions() {
               <div className="solution-title">Clinical Logistics</div>
             </div>
 
-            <div className="solution-box" style={{ backgroundImage: "url('/images/project.jpg')" }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
               <div className="solution-overlay">
                 <h2>Project Management</h2>
                 <p>On-time, on-budget trial delivery by expert teams.</p>

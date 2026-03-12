@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Nav from '../Shared/header/Nav'; // আপনার Nav কম্পোনেন্ট
+import Nav from '../Shared/header/Nav'; 
+import team1 from '../assets/images/team1.jpg'
+import team2 from '../assets/images/team2.jpg'
+import team3 from '../assets/images/team3.jpg'
 
 export default function About() {
   return (
@@ -36,15 +39,15 @@ export default function About() {
           <h2>Meet Our Team</h2>
           <div className="team-grid">
             <div className="team-member">
-              <img src="/images/team1.jpg" alt="Team Member 1" />
+              <img src={team1} alt="Team Member 1" />
             </div>
             <div className="team-member">
-              <img src="/images/team2.jpg" alt="Team Member 2" />
+              <img src={team2} alt="Team Member 2" />
             </div>
             <div className="team-member">
-              <img src="/images/team3.jpg" alt="Team Member 3" />
+              <img src={team3} alt="Team Member 3" />
             </div>
-            {/* Add more as needed */}
+           
           </div>
         </section>
 

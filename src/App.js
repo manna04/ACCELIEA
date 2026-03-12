@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-// import Blog from './pages/Blog/Blog';
+
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Nav from './Shared/header/Nav';
 import Index from './Component/Index';
@@ -12,25 +12,25 @@ import Careers from './Component/Careers';
 import About from './Component/About';
 import Locations from './Component/Locations';
 import Contact from './Component/Contact';
-import Loader from './Component/Loader'; // আপনার তৈরি করা Loader ইম্পোর্ট করুন
+import Loader from './Component/Loader'; 
 
-// রাউটিং এবং লোডিং ট্র্যাক করার জন্য নতুন কম্পোনেন্ট
+
 function AppRoutes() {
   const [loading, setLoading] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
-    // রাউট পরিবর্তন হলেই লোডিং শুরু হবে
+
     setLoading(true);
     const timer = setTimeout(() => {
-      setLoading(false); // ৫০০ মিলি-সেকেন্ড পর লোডার বন্ধ হবে
+      setLoading(false); 
     }, 500); 
 
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
   if (loading) {
-    return <Loader />; // লোডিং অবস্থায় Loader দেখাবে
+    return <Loader />;
   }
 
   return (
