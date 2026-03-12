@@ -50,7 +50,6 @@ export default function Careers() {
         <section className="section">
           <h2>Explore Opportunities</h2>
           <p>We’re hiring across Asia-Pacific, Europe, and North America. Join us and shape the future of global clinical research.</p>
-          {/* a tag-কে Link-এ পরিবর্তন করা হয়েছে */}
           <Link to="#" className="btn-know-more">View Open Positions</Link>
         </section>
       </main>
