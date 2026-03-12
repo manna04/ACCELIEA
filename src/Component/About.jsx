@@ -80,7 +80,7 @@ export default function About() {
       </main>
 
       <footer>
-        <p>&copy; 2025 Aceliea Clinical Research. All rights reserved.</p>//hello
+        <p>&copy; 2025 Aceliea Clinical Research. All rights reserved.</p>
       </footer>
     </>
   );
