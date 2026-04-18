@@ -21,7 +21,7 @@ export default function Index() {
 
             <section id="news" className="section">
                 <h2>News & Resources</h2>
-                <p>updated with the latest industry insights, company news, and whitepapers.</p>
+                <p>Stay updated with the latest industry insights, company news, and whitepapers.</p>
             </section>
 
             <section id="solutions" className="section">
