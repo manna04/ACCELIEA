@@ -26,12 +26,12 @@ export default function Index() {
 
             <section id="solutions" className="section">
                 <h2>Our Solutions</h2>
-                <p>From clinical operations to regulatory consulting, we offer full-service CRO capabilities.</p>
+                <p>From site-level execution to regulatory excellence, we offer integrated SMO solutions that drive precision, quality, and accelerated clinical outcomes.</p>
             </section>
 
             <section id="expertise" className="section">
                 <h2>Expertise</h2>
-                <p>Backed by decades of experience across oncology, infectious diseases, rare diseases, and more.</p>
+                <p>With a strong SMO foundation, we bring therapeutic excellence across Oncology, Hematology, Gastroenterology, Neurology, Orthopedics, Ophthalmology, Pediatrics, Vaccines, Infectious Diseases, Rare Diseases, Cardiology, Gynaecology, and General Medicine.</p>
             </section>
 
             <section id="careers" className="section">
