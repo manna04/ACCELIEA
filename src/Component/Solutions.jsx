@@ -99,9 +99,9 @@ export default function Solutions() {
               </div>
               <div className="solution-title">Project Management</div>
             </div>
-          </div>
+          
 
-          <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
               <div className="solution-overlay">
                 <h2>Patient Recruitment & Retention</h2>
                 <p>Faster enrollment with strong patient engagement and retention strategies.</p>
@@ -109,9 +109,9 @@ export default function Solutions() {
               </div>
               <div className="solution-title">Patient Recruitment & Retention</div>
             </div>
-          </div>
+          
 
-          <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
+            <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
               <div className="solution-overlay">
                 <h2>Qualified & Skilled Manpower</h2>
                 <p>GCP-trained professionals ensuring seamless and high-quality site execution.</p>
@@ -120,6 +120,8 @@ export default function Solutions() {
               <div className="solution-title">Qualified & Skilled Manpower</div>
             </div>
           </div>
+          
+          
         </section>
 
         {/* Contact Form Section */}
