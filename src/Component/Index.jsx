@@ -41,7 +41,7 @@ export default function Index() {
 
             <section id="about" className="section">
                 <h2>About Aceliea</h2>
-                <p>Aceliea is a leading CRO committed to accelerating drug development through scientific excellence and operational expertise.</p>
+                <p>Delivering 30+ clinical trials in just 1.5 years, Accelia Clinical Solutions sets the benchmark in speed, precision, and site excellence—consistently surpassing sponsor timelines and ranking among India’s top recruiters.<br/><br/>Powered by a 250+ clinician network and a strong multi-state presence across West Bengal, Assam, Bhubaneswar, Bihar, and Uttar Pradesh, we ensure accelerated enrollment, flawless compliance, and uncompromising data quality</p>
             </section>
 
             <section id="locations" className="section">
