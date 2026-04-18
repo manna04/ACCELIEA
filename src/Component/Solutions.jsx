@@ -66,11 +66,11 @@ export default function Solutions() {
 
             <div className="solution-box" style={{ backgroundImage: `url(${monitoringImg})` }}>
               <div className="solution-overlay">
-                <h2>Site Monitoring</h2>
-                <p>Ensure data integrity and regulatory compliance.</p>
+                <h2>Audit Support & Quality Control</h2>
+                <p>Ensuring compliance, data integrity, and audit-ready clinical operations.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
-              <div className="solution-title">Site Monitoring</div>
+              <div className="solution-title">Audit Support & Quality Control</div>
             </div>
 
             <div className="solution-box" style={{ backgroundImage: `url(${pharmacovigilance})` }}>
@@ -98,6 +98,26 @@ export default function Solutions() {
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
               <div className="solution-title">Project Management</div>
+            </div>
+          </div>
+
+          <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
+              <div className="solution-overlay">
+                <h2>Patient Recruitment & Retention</h2>
+                <p>Faster enrollment with strong patient engagement and retention strategies.</p>
+                <Link to="#" className="btn-know-more">Know More</Link>
+              </div>
+              <div className="solution-title">Patient Recruitment & Retention</div>
+            </div>
+          </div>
+
+          <div className="solution-box" style={{ backgroundImage: `url(${projectImg})` }}>
+              <div className="solution-overlay">
+                <h2>Qualified & Skilled Manpower</h2>
+                <p>GCP-trained professionals ensuring seamless and high-quality site execution.</p>
+                <Link to="#" className="btn-know-more">Know More</Link>
+              </div>
+              <div className="solution-title">Qualified & Skilled Manpower</div>
             </div>
           </div>
         </section>
