@@ -10,18 +10,17 @@ export default function Expertise() {
         <h1 className="section-title">Our Areas of Expertise</h1>
         <div className="expertise-container">
           <div className="expertise-box">
-            <h3>Oncology CRO Services</h3>
-            <p>Comprehensive oncology clinical trial services with deep therapeutic knowledge.</p>
+            <h3>Oncology</h3>
+            <Link to="#" className="learn-more"><p>Delivering excellence in complex oncology trials through precision-driven execution and deeply patient-centric care models.<br/>Leveraging advanced site capabilities and experienced investigators, we ensure accelerated recruitment, superior data quality, and impactful outcomes in high-stakes oncology research.</p></Link>
+          </div>
+          <div className="expertise-box">
+            <h3>Hematology</h3>
+            <p> Advanced expertise in hematological studies, ensuring exceptional data integrity and clinical accuracy.<br/>Our specialized approach enables meticulous monitoring, timely interventions, and seamless management of complex hematology protocols.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
           <div className="expertise-box">
-            <h3>Pharmacometric Services</h3>
-            <p>Advanced modeling & simulation services to optimize drug development.</p>
-            <Link to="#" className="learn-more">Learn More</Link>
-          </div>
-          <div className="expertise-box">
-            <h3>Drug Development Consulting</h3>
-            <p>Expert advice and strategy to help accelerate your drug development journey.</p>
+            <h3>Gastroenterology</h3>
+            <p>Seamless management of GI trials with optimized patient engagement and operational efficiency.<br/>We combine strong site coordination with patient-centric strategies to ensure consistent recruitment and high-quality data delivery.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
           <div className="expertise-box">
