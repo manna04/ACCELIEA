@@ -36,7 +36,7 @@ export default function Index() {
 
             <section id="careers" className="section">
                 <h2>Careers</h2>
-                <p>Join our global team and be part of shaping the future of healthcare research.</p>
+                <p>Be part of Accelia’s expanding SMO ecosystem, driving high-impact clinical research that transforms lives across India.<br/>Headquartered in Kolkata, with a strong presence across all regions of West Bengal, Assam, Bhubaneswar, Bihar, and Uttar Pradesh, we offer a platform to grow, innovate, and lead in the future of clinical research.</p>
             </section>
 
             <section id="about" className="section">
