@@ -43,7 +43,7 @@ export default function Solutions() {
                 <p>Streamlined, compliant EC registration with complete regulatory support.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
-              <div className="solution-title">Data Management</div>
+              <div className="solution-title">Ethics Committee Registration & Re-Registration</div>
             </div>
 
             <div className="solution-box" style={{ backgroundImage: `url(${medicalImg})` }}>
@@ -61,7 +61,7 @@ export default function Solutions() {
                 <p>Empowering research teams with up-to-date GCP knowledge, ensuring compliance, quality, and site excellence.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
-              <div className="solution-title">Biostatistics</div>
+              <div className="solution-title">Conduction of GCP Training Workshop</div>
             </div>
 
             <div className="solution-box" style={{ backgroundImage: `url(${monitoringImg})` }}>
@@ -79,7 +79,7 @@ export default function Solutions() {
                 <p>Secure, compliant storage ensuring audit-ready and easily retrievable study documentation.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
-              <div className="solution-title">Pharmacovigilance</div>
+              <div className="solution-title">Archival of Clinical Data</div>
             </div>
 
             <div className="solution-box" style={{ backgroundImage: `url(${logisticsImg})` }}>
