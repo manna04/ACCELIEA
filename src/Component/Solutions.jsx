@@ -39,8 +39,8 @@ export default function Solutions() {
 
             <div className="solution-box" style={{ backgroundImage: `url(${dataimage})` }}>
               <div className="solution-overlay">
-                <h2>Data Management</h2>
-                <p>Clean, secure and regulatory-compliant data.</p>
+                <h2>Ethics Committee Registration & Re-Registration</h2>
+                <p>Streamlined, compliant EC registration with complete regulatory support.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
               <div className="solution-title">Data Management</div>
@@ -57,8 +57,8 @@ export default function Solutions() {
 
             <div className="solution-box" style={{ backgroundImage: `url(${biostatisticsImg})` }}>
               <div className="solution-overlay">
-                <h2>Biostatistics</h2>
-                <p>Informed decisions based on deep statistical analysis.</p>
+                <h2>Conduction of GCP Training Workshop</h2>
+                <p>Empowering research teams with up-to-date GCP knowledge, ensuring compliance, quality, and site excellence.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
               <div className="solution-title">Biostatistics</div>
@@ -75,8 +75,8 @@ export default function Solutions() {
 
             <div className="solution-box" style={{ backgroundImage: `url(${pharmacovigilance})` }}>
               <div className="solution-overlay">
-                <h2>Pharmacovigilance</h2>
-                <p>Patient safety & adverse event tracking.</p>
+                <h2>Archival of Clinical Data</h2>
+                <p>Secure, compliant storage ensuring audit-ready and easily retrievable study documentation.</p>
                 <Link to="#" className="btn-know-more">Know More</Link>
               </div>
               <div className="solution-title">Pharmacovigilance</div>

@@ -46,16 +46,16 @@ export default function Index() {
 
             <section id="locations" className="section">
                 <h2>Our Locations</h2>
-                <p>We operate in multiple countries with regional offices across Asia-Pacific, Europe, and North America.</p>
+                <p>With Kolkata as our strategic hub, Accelia’s presence spans across all regions of West Bengal and key locations including Assam, Bhubaneswar, Bihar, and Uttar Pradesh—driving clinical excellence at every site.</p>
             </section>
 
             <section id="contact" className="section">
                 <h2>Contact Us</h2>
-                <p>Email: info@aceliea.com | Phone: +1-800-123-4567</p>
+                <p>Email: acceliaclinicalsolution@gmail.com | Phone: +91 8282986162</p>
             </section>
 
             <footer>
-                <p>&copy; 2025 Aceliea Clinical Research. All rights reserved.</p>
+                <p>Advancing Clinical Excellence with Integrity, Compliance, and Precision.<br/>&copy; 2025 Accelia Clinical Research. All rights reserved.</p>
             </footer>
         </>
     );
