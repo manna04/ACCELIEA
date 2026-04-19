@@ -314,42 +314,55 @@ footer {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.expertise-box h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: #002f5c;
-}
-
-
-
-.learn-more {
+.expertise-title {
   position: absolute;
-  bottom: 1.2rem;
-  left: 50%;
-  transform: translateX(-50%) translateY(30px);
-  opacity: 0;
-  transition: all 0.3s ease;
-  background-color: #004080;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  z-index: 2;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.expertise-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 64, 128, 0.85);
   color: white;
-  padding: 0.5rem 1.2rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  text-decoration: none;
-  font-weight: 500;
+  padding: 2rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.expertise-box:hover p {
-  font-size: 0.95rem;
-  color: #444;
-  line-height: 1.5;
-  margin-bottom: 2rem;
+.expertise-box:hover .expertise-title {
+  transform: translateY(-120%);
+  opacity: 0;
 }
 
-.expertise-box:hover .learn-more {
-  transform: translateX(-50%) translateY(0);
+.expertise-box:hover .expertise-overlay {
   opacity: 1;
+  transform: translateY(0);
 }
+
+.expertise-overlay h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.expertise-overlay p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+
 
 /* Solutions Page Styling */
 .solutions-section {
