@@ -297,14 +297,15 @@ footer {
 }
 
 .expertise-box {
-  background-color: #f1f6fb;
+   position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
   border-radius: 10px;
-  padding: 2rem 1.5rem;
-  text-align: center;
-  position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
 }
 
 .expertise-box:hover {
