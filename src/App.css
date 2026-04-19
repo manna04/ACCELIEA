@@ -321,12 +321,12 @@ footer {
   color: #002f5c;
 }
 
-.expertise-box p {
+/* .expertise-box p {
   font-size: 0.95rem;
   color: #444;
   line-height: 1.5;
   margin-bottom: 2rem;
-}
+} */
 
 .learn-more {
   position: absolute;
@@ -349,7 +349,7 @@ footer {
   opacity: 1;
 }
 
-.expertise-box:hover .espertise-h3 {
+.expertise-box:hover .espertise p {
   transform: translateY(-120%);
   opacity: 0;
 }
