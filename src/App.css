@@ -431,7 +431,7 @@ background-image: linear-gradient(to bottom right, rgb(0, 204, 255), rgba(99, 22
   padding: 2rem;
   opacity: 0;
   transform: translateY(40px);
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
