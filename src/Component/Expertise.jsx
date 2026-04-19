@@ -14,40 +14,47 @@ export default function Expertise() {
             <p>Delivering excellence in complex oncology trials through precision-driven execution and deeply patient-centric care models.<br />Leveraging advanced site capabilities and experienced investigators, we ensure accelerated recruitment, superior data quality, and impactful outcomes in high-stakes oncology research.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+
           <div className="expertise-box">
             <h3>Hematology</h3>
             <p> Advanced expertise in hematological studies, ensuring exceptional data integrity and clinical accuracy.<br />Our specialized approach enables meticulous monitoring, timely interventions, and seamless management of complex hematology protocols.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+
           <div className="expertise-box">
             <h3>Gastroenterology</h3>
             <p>Seamless management of GI trials with optimized patient engagement and operational efficiency.<br />We combine strong site coordination with patient-centric strategies to ensure consistent recruitment and high-quality data delivery.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+
           <div className="expertise-box">
             <h3>Neurology</h3>
             <p>Expert handling of neurological studies with meticulous protocol adherence and regulatory precision.<br />
               Our team is adept at managing complex neurological endpoints while ensuring patient safety and study continuity.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+
           <div className="expertise-box">
             <h3>Orthopedics</h3>
             <p>Streamlined execution of musculoskeletal trials with coordinated site excellence and efficiency.<br />
               From patient screening to follow-ups, we ensure smooth operational flow and adherence to study timelines.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+
           <div className="expertise-box">
             <h3>Ophthalmology</h3>
             <p>High-precision ophthalmic trial delivery supported by detailed clinical evaluation and quality oversight.<br />
               We maintain rigorous assessment standards to ensure accuracy, compliance, and reproducible outcomes.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+
           <div className="expertise-box">
             <h3>Pediatrics</h3>
             <p>Ethically grounded pediatric trials prioritizing safety, compliance, and compassionate patient care.<br />
               Our approach ensures sensitive handling, parental engagement, and strict adherence to pediatric regulatory frameworks.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
+          
           <div className="expertise-box">
             <h3>Vaccines</h3>
             <p> Large-scale vaccine trial execution with accelerated recruitment and rigorous monitoring frameworks.<br />

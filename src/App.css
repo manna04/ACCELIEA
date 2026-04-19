@@ -349,6 +349,11 @@ footer {
   opacity: 1;
 }
 
+.expertise-box:hover .espertise-h3 {
+  transform: translateY(-120%);
+  opacity: 0;
+}
+
 /* Solutions Page Styling */
 .solutions-section {
   padding: 4rem 2rem;
