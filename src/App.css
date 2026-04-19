@@ -371,13 +371,13 @@ footer {
   background-color: #f9f9f9;
 }
 
-/* .solutions-grid {
+.solutions-grid {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-} */
+}
 
 .solution-box {
   position: relative;
