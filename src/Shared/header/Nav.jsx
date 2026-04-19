@@ -70,11 +70,6 @@ export default function Nav() {
 
             <li className="dropdown">
               <Link to="/locations" onClick={closeMenu}>Locations</Link>
-              <ul className="dropdown-menu">
-                <li><Link to="#" onClick={closeMenu}>Asia-Pacific</Link></li>
-                <li><Link to="#" onClick={closeMenu}>Europe</Link></li>
-                <li><Link to="#" onClick={closeMenu}>North America</Link></li>
-              </ul>
             </li>
 
             <li className="dropdown">

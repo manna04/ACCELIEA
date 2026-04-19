@@ -14,6 +14,11 @@ export default function Locations() {
           </p>
         </section>
 
+        <section className="region-tabs">
+          <button className="tab-button active" data-tab="asia">Asia-Pacific</button>
+          <button className="tab-button" data-tab="europe">Europe</button>
+          <button className="tab-button" data-tab="north">North America</button>
+        </section>
 
         <section className="region-content">
           <div className="tab-panel active" id="asia">
