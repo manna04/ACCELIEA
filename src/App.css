@@ -622,7 +622,7 @@ footer {
   text-align: center;
 }
 
-.contact-form-section h2 {
+.contact-form-section h1 {
   font-size: 2rem;
   color: #004080;
   margin-bottom: 1rem;
@@ -686,7 +686,7 @@ footer {
     padding: 3rem 1rem;
   }
 
-  .contact-form-section h2 {
+  .contact-form-section h1 {
     font-size: 1.5rem;
   }
 
