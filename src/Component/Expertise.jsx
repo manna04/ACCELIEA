@@ -7,6 +7,7 @@ export default function Expertise() {
     <>
       <Nav />
       <main>
+        <section className="expertise-section">
         <h1 className="section-title">Our Areas of Expertise</h1>
         <div className="expertise-grid">
           <div className="expertise-box">
@@ -171,6 +172,8 @@ export default function Expertise() {
           </div>
 
         </div>
+
+        </section>
 
         {/* Contact Form Section */}
         <section className="contact-form-section">
