@@ -8,18 +8,11 @@ export default function Contact() {
       <Nav />
 
       <main className="locations-page">
-        <section className="contact-location-section">
-          <div className="contact-locations-wrapper">
-            <h2 id="office-title">Offices in Your Area</h2>
-            <div className="office-grid" id="user-location-office">
-            </div>
-          </div>
-        </section>
 
         <section className="contact-form-section styled-contact">
           <div className="contact-form-wrapper">
             <div className="contact-intro">
-              <h2>Get in Touch</h2>
+              <h1>Get in Touch</h1>
               <p>Fill in the form and the right Aceliea expert will get back to you shortly.</p>
             </div>
 
@@ -57,35 +50,6 @@ export default function Contact() {
                 <button type="submit" className="submit-btn">Send</button>
               </div>
             </form>
-          </div>
-        </section>
-
-        <section className="all-global-offices">
-          <h2>All Aceliea Global Offices</h2>
-          <div className="office-grid">
-            <div className="office-card" style={{ backgroundImage: "url('/images/india-office.jpg')" }}>
-              <div className="office-overlay">
-                <h3>Bangalore</h3>
-                <p>Unit 1, Block E, Helios Business Park, Bangalore 560103, India</p>
-                <p><strong>📞</strong> +91 80 4164 8996</p>
-              </div>
-            </div>
-
-            <div className="office-card" style={{ backgroundImage: "url('/images/usa-office.jpg')" }}>
-              <div className="office-overlay">
-                <h3>Boston</h3>
-                <p>123 Seaport Blvd, Boston, MA 02210, USA</p>
-                <p><strong>📞</strong> +1 617-123-4567</p>
-              </div>
-            </div>
-
-            <div className="office-card" style={{ backgroundImage: "url('/images/germany-office.jpg')" }}>
-              <div className="office-overlay">
-                <h3>Frankfurt</h3>
-                <p>Friedrich-Ebert-Anlage 35, 60327 Frankfurt, Germany</p>
-                <p><strong>📞</strong> +49 69 12345678</p>
-              </div>
-            </div>
           </div>
         </section>
       </main>
