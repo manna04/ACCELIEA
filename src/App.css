@@ -321,12 +321,7 @@ footer {
   color: #002f5c;
 }
 
-/* .expertise-box p {
-  font-size: 0.95rem;
-  color: #444;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-} */
+
 
 .learn-more {
   position: absolute;
@@ -344,14 +339,16 @@ footer {
   font-weight: 500;
 }
 
+.expertise-box:hover p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
 .expertise-box:hover .learn-more {
   transform: translateX(-50%) translateY(0);
   opacity: 1;
-}
-
-.expertise-box:hover .espertise p {
-  transform: translateY(-120%);
-  opacity: 0;
 }
 
 /* Solutions Page Styling */
