@@ -16,8 +16,10 @@ export default function Expertise() {
           </div>
 
           <div className="expertise-box">
+            <div className="expertise-overlay">
             <h3>Hematology</h3>
             <p> Advanced expertise in hematological studies, ensuring exceptional data integrity and clinical accuracy.<br />Our specialized approach enables meticulous monitoring, timely interventions, and seamless management of complex hematology protocols.</p>
+            </div>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
 
@@ -54,7 +56,7 @@ export default function Expertise() {
               Our approach ensures sensitive handling, parental engagement, and strict adherence to pediatric regulatory frameworks.</p>
             <Link to="#" className="learn-more">Learn More</Link>
           </div>
-          
+
           <div className="expertise-box">
             <h3>Vaccines</h3>
             <p> Large-scale vaccine trial execution with accelerated recruitment and rigorous monitoring frameworks.<br />
