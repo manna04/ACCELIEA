@@ -330,7 +330,7 @@ footer {
   position: absolute;
   inset: 0;
   background: rgba(0, 64, 128, 0.85);
-  color: white;
+  color: rgb(219, 15, 15);
   padding: 2rem;
   opacity: 0;
   transform: translateY(40px);
