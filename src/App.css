@@ -288,14 +288,12 @@ footer {
 }
 
 /* Expertise Page Styling */
-.expertise-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
+.expertise-grid {
   max-width: 1200px;
   margin: 0 auto;
-  justify-items: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .expertise-box {

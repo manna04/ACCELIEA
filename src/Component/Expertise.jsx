@@ -8,7 +8,7 @@ export default function Expertise() {
       <Nav />
       <main>
         <h1 className="section-title">Our Areas of Expertise</h1>
-        <div className="expertise-container">
+        <div className="expertise-grid">
           <div className="expertise-box">
             <div className="expertise-overlay">
               <h2>Oncology</h2>
