@@ -310,6 +310,7 @@ footer {
 
 .expertise-box:hover {
   transform: translateY(-6px);
+  background-color: aqua;
   box-shadow: 0 10px 25px rgba(32, 229, 243, 0.1);
 }
 
