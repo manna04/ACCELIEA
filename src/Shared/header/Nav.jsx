@@ -79,10 +79,6 @@ export default function Nav() {
 
             <li className="dropdown">
               <Link to="/contact" onClick={closeMenu}>Contact</Link>
-              <ul className="dropdown-menu">
-                <li><Link to="#" onClick={closeMenu}>Email</Link></li>
-                <li><Link to="#" onClick={closeMenu}>Support</Link></li>
-              </ul>
             </li>
 
           </ul>
