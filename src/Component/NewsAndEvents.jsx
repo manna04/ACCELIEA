@@ -13,7 +13,7 @@ export default function NewsAndEvents() {
 
           <div className="resources-container">
             <section className="resource-section colored">
-              <h2 className="resource-title">Latest News</h2>
+              <h2 className="resource-title" >Latest News</h2>
               <div className="resource-grid">
                 <div className="resource-box">Brief news content 1</div>
                 <div className="resource-box">Brief news content 2</div>
@@ -34,29 +34,7 @@ export default function NewsAndEvents() {
               <Link to="#" className="view-all-btn">View All Reports</Link>
             </section>
 
-            <section className="resource-section colored">
-              <h2 className="resource-title">Latest White Papers</h2>
-              <div className="resource-grid">
-                <div className="resource-box">White Paper 1</div>
-                <div className="resource-box">White Paper 2</div>
-                <div className="resource-box">White Paper 3</div>
-                <div className="resource-box">White Paper 4</div>
-              </div>
-              <Link to="#" className="view-all-btn">View All White Papers</Link>
-            </section>
-
-            <section className="resource-section colored">
-              <h2 className="resource-title">Latest Webinars</h2>
-              <div className="resource-grid">
-                <div className="resource-box">Webinar topic 1</div>
-                <div className="resource-box">Webinar topic 2</div>
-                <div className="resource-box">Webinar topic 3</div>
-                <div className="resource-box">Webinar topic 4</div>
-              </div>
-              <Link to="#" className="view-all-btn">View All Webinars</Link>
-            </section>
-
-            <section className="resource-section colored">
+            <section id="events-section" className="resource-section colored">
               <h2 className="resource-title">Latest Events</h2>
               <div className="resource-grid">
                 <div className="resource-box">Event 1</div>
@@ -65,39 +43,6 @@ export default function NewsAndEvents() {
                 <div className="resource-box">Event 4</div>
               </div>
               <Link to="#" className="view-all-btn">View All Events</Link>
-            </section>
-
-            <section className="resource-section colored">
-              <h2 className="resource-title">Latest Articles</h2>
-              <div className="resource-grid">
-                <div className="resource-box">Article 1</div>
-                <div className="resource-box">Article 2</div>
-                <div className="resource-box">Article 3</div>
-                <div className="resource-box">Article 4</div>
-              </div>
-              <Link to="#" className="view-all-btn">View All Articles</Link>
-            </section>
-
-            <section className="resource-section colored">
-              <h2 className="resource-title">Latest Blog</h2>
-              <div className="resource-grid">
-                <div className="resource-box">Blog post 1</div>
-                <div className="resource-box">Blog post 2</div>
-                <div className="resource-box">Blog post 3</div>
-                <div className="resource-box">Blog post 4</div>
-              </div>
-              <Link to="#" className="view-all-btn">View All Blog</Link>
-            </section>
-
-            <section className="resource-section colored">
-              <h2 className="resource-title">Latest Case Studies</h2>
-              <div className="resource-grid">
-                <div className="resource-box">Case study 1</div>
-                <div className="resource-box">Case study 2</div>
-                <div className="resource-box">Case study 3</div>
-                <div className="resource-box">Case study 4</div>
-              </div>
-              <Link to="#" className="view-all-btn">View All Case Studies</Link>
             </section>
 
             <section className="resource-section colored">

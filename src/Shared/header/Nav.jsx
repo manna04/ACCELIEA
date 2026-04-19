@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.jpg';
@@ -23,13 +23,30 @@ export default function Nav() {
           </div>
 
           <ul className={`nav-links ${isOpen ? "active" : ""}`}>
-            
+
             <li className="dropdown">
               <Link to="/news-resources" onClick={closeMenu}>News & Events</Link>
               <ul className="dropdown-menu">
-                <li><Link to="/news-resources" onClick={closeMenu}>Press Releases</Link></li>
-                <li><Link to="#" onClick={closeMenu}>Blog</Link></li>
-                <li><Link to="#" onClick={closeMenu}>Webinars</Link></li>
+                <li><Link to="/news-resources" onClick={closeMenu}>News</Link></li>
+                <li><Link to="#" onClick={closeMenu}>Reports</Link></li>
+                <li>
+                  <Link
+                    to="/news-resources#events-section"
+                    onClick={() => {
+                      closeMenu();
+                      setTimeout(() => {
+                        const element = document.getElementById('events-section');
+                        if (element) {
+                          element.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }, 100);
+                    }}
+                  >
+                    Events
+                  </Link>
+                </li>
+
+                <li><Link to="#" onClick={closeMenu}>FAQ's</Link></li>
               </ul>
             </li>
 

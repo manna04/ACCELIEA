@@ -123,39 +123,6 @@ export default function Solutions() {
           
           
         </section>
-
-        {/* Contact Form Section */}
-        <section className="contact-form-section">
-          <h2>Talk to an Expert Team Member</h2>
-          <p>
-            Receive a timely response to an enquiry about a service, process or technical questions.<br />
-            Enter your details and the right person at Aceliea will get in touch with you soon.
-          </p>
-
-          <form className="expert-contact-form" action="#" method="POST">
-            <div className="form-group">
-              <label htmlFor="name">Full Name</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="email">Email Address</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="phone">Phone Number</label>
-              <input type="tel" id="phone" name="phone" />
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="message">Your Message</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-
-            <button type="submit" className="submit-btn">Submit</button>
-          </form>
-        </section>
       </main>
     </>
   );
